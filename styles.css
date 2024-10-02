@@ -6,7 +6,7 @@ body, html {
     }
     
     .background {
-        background-image: url('https://source.unsplash.com/1920x1080/?nature,landscape');
+        background-image: url('https://source.unsplash.com/1920x1080/?city,night');
         height: 100%;
         background-position: center;
         background-repeat: no-repeat;
@@ -19,7 +19,7 @@ body, html {
     
     /* Login container */
     .login-container {
-        background-color: rgba(255, 255, 255, 0.8);
+        background-color: rgba(255, 255, 255, 0.9);
         padding: 40px;
         border-radius: 10px;
         box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
