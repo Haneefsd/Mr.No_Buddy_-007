@@ -1,0 +1,72 @@
+/* Background styling */
+body, html {
+        height: 100%;
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+    
+    .background {
+        background-image: url('https://source.unsplash.com/1920x1080/?city,night');
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    /* Login container */
+    .login-container {
+        background-color: rgba(255, 255, 255, 0.9);
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        width: 100%;
+        max-width: 400px;
+    }
+    
+    /* Input fields styling */
+    .login-container input[type="text"],
+    .login-container input[type="password"] {
+        width: 100%;
+        padding: 15px;
+        margin: 10px 0 20px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+    }
+    
+    /* Button styling */
+    .login-container button {
+        background-color: #4CAF50;
+        color: white;
+        padding: 15px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 100%;
+        font-size: 16px;
+    }
+    
+    .login-container button:hover {
+        background-color: #45a049;
+    }
+    
+    /* Placeholder for "Forgot password?" */
+    .login-container .forgot-password {
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    .login-container .forgot-password a {
+        color: #4CAF50;
+        text-decoration: none;
+    }
+    
+    .login-container .forgot-password a:hover {
+        text-decoration: underline;
+    }
+    
