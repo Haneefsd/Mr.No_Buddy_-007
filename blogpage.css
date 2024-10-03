@@ -1,0 +1,152 @@
+/* Reset default browser styles */
+* {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        background-color: #f4f4f4;
+    }
+    
+    /* Main Header */
+    #main-header {
+        background: #333;
+        color: white;
+        padding: 20px 0;
+        text-align: center;
+    }
+    
+    #main-header h1 {
+        margin-bottom: 10px;
+    }
+    
+    #main-header p {
+        font-style: italic;
+        color: #ccc;
+    }
+    
+    /* Navigation Bar */
+    #navbar {
+        background: #555;
+        color: white;
+        padding: 10px 0;
+    }
+    
+    #navbar ul {
+        list-style: none;
+        text-align: center;
+    }
+    
+    #navbar ul li {
+        display: inline;
+        margin: 0 15px;
+    }
+    
+    #navbar ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
+    
+    #navbar ul li a:hover {
+        color: #ddd;
+    }
+    
+    /* Content Section */
+    #content {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 0;
+    }
+    
+    /* Main Content */
+    #main-content {
+        width: 70%;
+    }
+    
+    .post {
+        background: white;
+        padding: 20px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+    }
+    
+    .post h2 {
+        color: #333;
+    }
+    
+    .post .meta {
+        font-size: 0.9rem;
+        color: #666;
+        margin-bottom: 10px;
+    }
+    
+    .post p {
+        font-size: 1rem;
+        line-height: 1.5;
+        margin-bottom: 15px;
+    }
+    
+    .read-more {
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+        display: inline-block;
+        margin-top: 10px;
+    }
+    
+    .read-more:hover {
+        color: #2874f0;
+    }
+    
+    /* Sidebar */
+    #sidebar {
+        width: 25%;
+        padding-left: 20px;
+    }
+    
+    #sidebar h3 {
+        background: #333;
+        color: white;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    
+    #sidebar ul {
+        list-style-type: none;
+    }
+    
+    #sidebar ul li {
+        margin-bottom: 10px;
+    }
+    
+    #sidebar ul li a {
+        text-decoration: none;
+        color: #2874f0;
+    }
+    
+    #sidebar ul li a:hover {
+        color: #555;
+    }
+    
+    /* Footer */
+    #main-footer {
+        background: #333;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+        margin-top: 20px;
+    }
+    
+    #main-footer p {
+        margin: 0;
+    }
+    
+    .container {
+        width: 80%;
+        margin: 0 auto;
+    }
+    
