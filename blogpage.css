@@ -1,4 +1,4 @@
-/* Reset default browser styles */
+
 * {
         margin: 0;
         padding: 0;
@@ -11,7 +11,7 @@
         background-color: #f4f4f4;
     }
     
-    /* Main Header */
+
     #main-header {
         background: #333;
         color: white;
@@ -28,7 +28,6 @@
         color: #ccc;
     }
     
-    /* Navigation Bar */
     #navbar {
         background: #555;
         color: white;
@@ -55,14 +54,12 @@
         color: #ddd;
     }
     
-    /* Content Section */
     #content {
         display: flex;
         justify-content: space-between;
         padding: 20px 0;
     }
     
-    /* Main Content */
     #main-content {
         width: 70%;
     }
@@ -132,7 +129,6 @@
         color: #555;
     }
     
-    /* Footer */
     #main-footer {
         background: #333;
         color: white;
