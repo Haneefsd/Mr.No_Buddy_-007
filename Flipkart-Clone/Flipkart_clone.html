@@ -3,41 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flipkart Header</title>
+    <title>Simple Flipkart Header with Image Icons</title>
     <link rel="stylesheet" href="Flipkart_clone.css">
 </head>
 <body>
-
-    <header class="header">
-        <!-- Logo Section with an image -->
-        <div class="logo">
-            <img src="logo.png" alt="Flipkart Logo" width="150">
-        </div>
-
-        <!-- Search Bar Section -->
-        <div class="search-bar">
-            <input type="text" placeholder="Search for Products, Brands and More">
-        </div>
-
-        <!-- Account Section -->
-        <div class="account">
-            <img src="https://via.placeholder.com/20" alt="User Icon">
-            Syed
-        </div>
-
-        <!-- Cart Section with Cart Count -->
-        <div class="cart">
-            <img src="https://via.placeholder.com/20" alt="Cart Icon">
-            Cart
-            <span class="cart-count">23</span>
-        </div>
-
-        <!-- Become a Seller Section -->
-        <div class="seller">
-            <img src="https://via.placeholder.com/20" alt="Seller Icon">
-            Become a Seller
+    <header>
+        <div class="header-container">
+            <div class="logo-section">
+                <img src="logo.png" alt="Flipkart Logo" class="logo">
+            </div>
+                <div class="search-section">
+                <input type="text" placeholder="Search for Products, Brands and More">
+            </div>
+            <div class="menu-section">
+                <a href="#" class="login">
+                    <img src="account.png" alt="Login Icon" class="icon"> Login
+                </a>
+                <a href="#" class="cart">
+                    <img src="cart.png" alt="Cart Icon" class="icon"> Cart
+                </a>
+                <a href="#" class="seller">
+                    <img src="seller.png" alt="Seller Icon" class="icon"> Become a Seller
+                </a>
+                <div class="menu-dots">...</div>
+            </div>
         </div>
     </header>
-
 </body>
 </html>
